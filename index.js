@@ -11,6 +11,12 @@
   'use strict';
 
   function count (str) {
+    if (typeof str !== 'string') {
+      throw new Error('count-lines expects a string.');
+    }
+    if (!str.length) {
+      return 0;
+    }
     return str.split(/\r?\n/g).length;
   }
 

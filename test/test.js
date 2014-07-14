@@ -11,6 +11,12 @@ var assert = require('assert');
 var count = require('../');
 
 describe('count', function () {
+  it('should return zero when the string is empty.', function () {
+    var actual = count('');
+    assert.equal(actual, 0);
+    assert.notEqual(actual, 4);
+  });
+
   it('should count lines', function () {
     var actual = count('a\nb\nc');
     assert.equal(actual, 3);

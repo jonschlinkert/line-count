@@ -1,7 +1,7 @@
 {
   "name": "count-lines",
   "description": "Count the lines in a string, works with windows carriage returns or unix style newlines.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/count-lines",
   "author": {
     "name": "Jon Schlinkert",
