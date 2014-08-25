@@ -1,23 +1,23 @@
 {
-  "name": "count-lines",
-  "description": "Count the lines in a string, works with windows carriage returns or unix style newlines.",
-  "version": "0.1.2",
-  "homepage": "https://github.com/jonschlinkert/count-lines",
+  "name": "line-count",
+  "description": "Count the lines in a string.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/line-count",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jonschlinkert/count-lines.git"
+    "url": "git://github.com/jonschlinkert/line-count.git"
   },
   "bugs": {
-    "url": "https://github.com/jonschlinkert/count-lines/issues"
+    "url": "https://github.com/jonschlinkert/line-count/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/jonschlinkert/count-lines/blob/master/LICENSE-MIT"
+      "url": "https://github.com/jonschlinkert/line-count/blob/master/LICENSE-MIT"
     }
   ],
   "keywords": [
@@ -56,7 +56,8 @@
     "test": "mocha -R spec"
   },
   "devDependencies": {
-    "verb": ">= 0.2.6",
-    "mocha": "*"
+    "mocha": "*",
+    "should": "^4.0.4",
+    "verb": ">= 0.2.6"
   }
 }

@@ -1,5 +1,5 @@
 /*!
- * count-lines <https://github.com/jonschlinkert/count-lines>
+ * line-count <https://github.com/jonschlinkert/line-count>
  *
  * Copyright (c) 2014 Jon Schlinkert, contributors.
  * Licensed under the MIT License
@@ -12,7 +12,7 @@
 
   function count (str) {
     if (typeof str !== 'string') {
-      throw new Error('count-lines expects a string.');
+      throw new Error('line-count expects a string.');
     }
     if (!str.length) {
       return 0;
